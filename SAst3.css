@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav {
+	float: right;
+	padding-right: 26px;
+}
+
+body{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: montserrat;
+	}
+
+nav ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	text-align: right;
+	}
+
+nsv ul li a {
+	text-decoration: none;
+	color: white;
+	}
+
+.hero-box{
+	height: 338px;
+	bqckground-color: #FF00D7;
+	background-image:url("file:///Macintosh%20HD/Users/jenniferrostro/Documents/GitHub/sastreet/images/fsncyplate.jpg";
+}
+
+h1{
+	color: #FFFFFF;
+	font-size: 55px;
+	padding-top: 120px;
+	padding-left: 6px;
+}
+/*tablet*/
+@media(max-width:768px){
+	h1{
+		font-size: 40px;
+		text-align: center;
+		padding-left: 0px;
+		
+	}	
+}
+
+
+/*mobile*/k
+@media(max-width:400px){
+	h1{
+		font-size: 28px;
+	}
+		

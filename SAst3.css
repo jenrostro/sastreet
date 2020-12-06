@@ -27,14 +27,15 @@ nsv ul li a {
 .hero-box{
 	height: 338px;
 	bqckground-color: #FF00D7;
-	background-image:url("file:///Macintosh%20HD/Users/jenniferrostro/Documents/GitHub/sastreet/images/fsncyplate.jpg";
+	background-size:cover;
+		
 }
 
 h1{
 	color: #FFFFFF;
 	font-size: 55px;
 	padding-top: 120px;
-	padding-left: 6px;
+	padding-left: 60px;
 }
 /*tablet*/
 @media(max-width:768px){

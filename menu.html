@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS GRID</title>
+	
+	
+	<style>
+		.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+		}
+		
+		h1(font-family:montserrat;)
+		.wrapper{
+			display: grid;
+		grid-template-columns:1fr 1fr 1fr;
+			grid-gap: 2px;
+			grid-auto-rows:minmax(100px,auto);
+		}
+		.wrapper> div{
+			padding: 2px;
+		}
+		
+	.grid-container{
+	display: inline-grid
+	grid-column-gap:20px;
+	grid-template-columns: auto auto auto;
+	background-color:#E79F70;
+	padding: 10px;
+		}
+	.grid-item{
+	background-color: #e79f70;
+	
+		font-size: 30px;
+		text-align: center;
+		}
+		
+	</style>
+	</head>
+	
+		
+	<body>	
+	<nav style="text-align:right; font-family: montserrat;"> <a href ="index.html"> &#127818; home </a>
+
+</nav>
+		
+		<div class="grid-container">
+			<div class="wrapper">
+			
+		
+		<div class="grid-item"><a href="about.html"><img src="orangescrop.jpg" alt="oranges"></a>
+				</div>
+			
+		  
+		<div class="grid-item"><a href="food.html"><img src="menufood.jpg" alt="restraunt"></a></div>
+				
+		<div class="grid-item"><a href="drinks.html"><img src="mule.jpg" alt= "drinks"></a></div>
+			
+				<div class="grid-item"><a href="insta.html"><img src="riverwalk.jpg" alt="riverwalk"></a></div>
+				
+				<div class="grid-item"><a href="music.html"><img src="pmr.jpg" alt="event"></a></div>
+					
+				
+		
+					
+				</div>
+		</div>
+		
+	</body>
+
+<body>
+	
+</body>
+</html>
